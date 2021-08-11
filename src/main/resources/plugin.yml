@@ -1,0 +1,6 @@
+name: AnarchyJoinMessagesRewrite
+version: ${project.version}
+main: dev.bleepo.anarchyjoinmessagesrewrite.AnarchyJoinMessagesRewrite
+api-version: 1.17
+authors: [ Bleepo ]
+description: AnarchyJoinMessagesRewrite

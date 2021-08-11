@@ -1,0 +1,26 @@
+#AJM Rewrite v2.6
+#Use {player} as the placeholder for a players name.
+
+#First join messages
+firstjoin: {
+             #Do we want to send a message when a player joins for the first time?
+             sendmessage: true,
+             #The message that we send the server when the player joins for the first time
+             message: '&b[AnarchyJoinMessages] &7{player} joined for the first time!'
+}
+
+#Join messages
+joinmessages: {
+                #Do we want to send a message when a player joins?
+                sendmessage: true,
+                #The message that we send to the server when the player joins.
+                message: '&b[AnarchyJoinMessages] &7{player} joined.'
+}
+
+#Leave messages
+leavemessages: {
+                 #Do we want to send a message when a player leaves?
+                 sendmessage: true,
+                 #The message that we send to the server when the player leaves.
+                 message: '&b[AnarchyJoinMessages] &7{player} left.'
+}
